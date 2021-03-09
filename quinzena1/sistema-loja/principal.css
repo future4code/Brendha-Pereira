@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: burlywood;
+}
+
+
+.cabecalho {
+    background-color:burlywood ;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    display: block;
+    display: inline-block;
+}
+ .redes {
+     display: flex;
+     height: 50px;
+   
+ }
+
+ .inicio, .estoque, .produto, .funcionarios {
+     text-decoration: none;
+     
+ }
+
+ .camiseta, .moletom, .tenis, .jogger, .colar {
+     width: 200px;
+ }
+  table {
+      background-color: cornflowerblue;
+  }
+
+  .nomes {
+      background-color: cornflowerblue;
+      display: inline-block;
+  }
+
+  .amanhecer {
+      background-color: darkkhaki;
+      display: flex;
+      justify-content: center;
+  }
+
+  footer {
+      background-color: cyan;
+      display: flex;
+      justify-content: center;
+     margin-top: 416px;
+     padding: 30px;
+  }
