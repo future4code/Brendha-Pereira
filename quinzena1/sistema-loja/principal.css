@@ -44,10 +44,14 @@ p {
       justify-content: center;
   }
 
-  footer {
+  .footer {
       background-color: cyan;
       display: flex;
       justify-content: center;
-     margin-top: 416px;
+     margin-top: 216px;
      padding: 30px;
+     height: 13vh;
+  }
+  span {
+      background-color: blueviolet;
   }

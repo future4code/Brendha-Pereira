@@ -1,0 +1,233 @@
+body {
+    background-color: rgba(205, 245, 235, 1);
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    background-color:rgb(130, 212, 199) ;
+    padding: 20px;
+    background-image: linear-gradient(to top, rgba(146, 164, 231, 0 ), rgba(134, 160, 230, 0.39) );
+
+    
+
+}
+.menu {
+    background-color: rgb(125, 165, 189);
+    border-radius: 4px;
+    padding: 8px;
+    }
+.cubos, .seletivo {
+    background-color: rgb(125, 165, 189);
+    border-radius: 4px;
+    padding: 8px;
+    display: inline-block;
+
+}
+.cubos {
+    margin-left: 60%;
+}
+.links {
+    text-decoration: none;
+    
+}
+a:hover {
+    color: blueviolet;
+}
+.perfil {
+    width: 200px;
+    height:220px ;
+    border-radius: 50%;
+    border:4px solid rgba(44, 101, 114, 1);
+    margin-left: 40%;
+    margin-top: 24px;
+
+
+}
+
+.nome {
+    display: flex;
+    justify-content: center;
+    color: rgba(44, 78, 70, 1);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+    margin-top: 10px;
+
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    color: rgb(27, 104, 86);
+    font-family: 'Offside', cursive;
+    font-size: 24px;
+    margin-top: 10px;
+
+}
+.sobre, .instituicoes {
+    display: flex;
+    display: inline-block;
+
+}
+
+.sobremim {
+  /* background-color: rgba(33, 68, 190, 1); */
+  font-family: 'Montserrat', sans-serif;
+  background-image: linear-gradient(to top, rgba(51, 91, 201, 0.109), rgba(33, 67, 190, 0.479));
+  width: 30%;
+  margin-left: 18%;
+  font-size: 24px;
+  border-radius: 10px;
+  color: rgba(44, 78, 70, 0.6);
+  display: inline-block;
+  margin-top: 50px;
+  padding-bottom: 80px;
+
+}
+.sobre {
+    display: block;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 24px;
+    color: rgba(20, 46, 141, 0.76);
+    margin-left: 6px;
+    margin-top: 16px;
+}
+.textinhosobre {
+    margin-left: 6px;
+}
+
+.instituicoes {
+    font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(to top, rgba(51, 91, 201, 0.082), rgba(33, 67, 190, 0.445));
+    width: 30%;
+    font-size: 24px;
+    border-radius: 10px;
+    color: rgba(44, 78, 70, 0.6);
+    display: inline-block;
+    float: right;
+    margin-right: 18%;
+    margin-top: 50px;
+    padding-bottom: 168px;
+
+
+  }
+  .institu {
+    display: block;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 24px;
+    color: rgba(20, 46, 141, 0.76);
+    margin-left: 6px;
+    margin-top: 16px;
+
+  }
+
+  .textinhoinstitu {
+    margin-left: 6px;
+  }
+  .projetos {
+    display: flex;
+    justify-content: center;
+    color: rgba(44, 78, 70, 1);
+    font-family: 'Offside', cursive;
+    font-size: 48px;
+    margin-top: 200px;
+}
+.labenu {
+    width: 30%;
+    margin-left: 14%;
+    border-radius: 8px;
+    border: rgba(111, 155, 152, 1) solid 4px;
+    height: 40vh;
+    margin-top: 20px;
+}
+.projetocubos {
+    width: 30%;
+    margin-left: 14%;
+    border-radius: 8px;
+    border: rgba(111, 155, 152, 1) solid 4px;
+    height: 40vh;
+
+}
+.verlabenu {
+    background-color: rgba(113, 177, 177, 1);
+    display: inline-block;
+    margin-left: 24%;
+    margin-top: 10px;
+    border-radius: 4px;
+    padding: 10px 30px;
+}
+.vercubos {
+    background-color: rgba(113, 177, 177, 1);
+    display:inline-block;
+    float: right;
+    margin-right: 22%;
+    margin-top: 10px;
+    border-radius: 4px;
+    padding: 10px 30px;
+
+}
+.fontebotao {
+    font-family: 'Offside', cursive;
+    color: rgba(9, 72, 61, 1);
+    font-size: 18px;
+}
+.container {
+    /* border: red solid 4px; */
+    margin: 0 auto;
+    width: 80vw;
+    height: 260vh;
+    background-image: linear-gradient(to top, rgba(51, 91, 201, 0.082), rgba(33, 67, 190, 0.363));
+    border-radius: 8px;
+    margin-top: 220px;
+    position: relative;
+}
+.soft {
+    /* border: red solid 4px; */
+    display: inline-block;
+    width: 40%;
+    left: 20px;
+
+
+ }
+ .X {
+     border: black solid 4px;
+     display: inline-block;
+     width: 10%;
+
+ }  
+
+ .hard{
+     /* border: coral solid 4px; */
+     display: inline-block;
+     width: 30%;
+     right: 10px;
+
+ }
+ .soft,  .hard {
+     display: inline-block;
+     font-family: 'Slabo 27px', serif;
+     color:rgba(43, 60, 86, 1);
+     font-size: 36px;
+      position: absolute;
+     top: 0;
+ }
+ .contato {
+     background-color: blue;
+     display: inline-block;
+     height: 30vh;
+     margin-top: 100px;
+     border-radius: 8px;
+
+ }
+.botaocontato {
+    padding: 8px 4px;
+    background-color: red;
+}
+    
+
+.redes{
+
+    background-color: green;
+}
+   
+
