@@ -1,0 +1,345 @@
+body {
+    background-color: rgba(205, 245, 235, 1);
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    background-color:rgb(130, 212, 199) ;
+    padding: 20px;
+    background-image: linear-gradient(to top, rgba(146, 164, 231, 0 ), rgba(134, 160, 230, 0.39) );
+
+    
+
+}
+.menu {
+    background-color: rgb(125, 165, 189);
+    border-radius: 4px;
+    padding: 8px;
+    }
+.cubos, .seletivo {
+    background-color: rgb(125, 165, 189);
+    border-radius: 4px;
+    padding: 8px;
+    display: inline-block;
+
+}
+.cubos {
+    margin-left: 60%;
+}
+.links {
+    text-decoration: none;
+    
+}
+a:hover {
+    color: blueviolet;
+}
+.perfil {
+    width: 15vw;
+    height:30vh ;
+    border-radius: 50%;
+    border:4px solid rgba(44, 101, 114, 1);
+    margin-left: 40%;
+    margin-top: 24px;
+
+
+}
+
+.nome {
+    display: flex;
+    justify-content: center;
+    color: rgba(44, 78, 70, 1);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+    margin-top: 10px;
+
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    color: rgb(27, 104, 86);
+    font-family: 'Offside', cursive;
+    font-size: 24px;
+    margin-top: 10px;
+
+}
+.sobre, .instituicoes {
+    display: flex;
+    display: inline-block;
+
+}
+
+.sobremim {
+  /* background-color: rgba(33, 68, 190, 1); */
+  font-family: 'Montserrat', sans-serif;
+  background-image: linear-gradient(to top, rgba(51, 91, 201, 0.109), rgba(33, 67, 190, 0.479));
+  width: 30%;
+  margin-left: 18%;
+  font-size: 24px;
+  border-radius: 10px;
+  color: rgba(44, 78, 70, 0.6);
+  display: inline-block;
+  margin-top: 50px;
+  padding-bottom: 80px;
+
+}
+.sobre {
+    display: block;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 24px;
+    color: rgba(20, 46, 141, 0.76);
+    margin-left: 6px;
+    margin-top: 16px;
+}
+.textinhosobre {
+    margin-left: 6px;
+}
+
+.instituicoes {
+    font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(to top, rgba(51, 91, 201, 0.082), rgba(33, 67, 190, 0.445));
+    width: 30%;
+    font-size: 24px;
+    border-radius: 10px;
+    color: rgba(44, 78, 70, 0.6);
+    display: inline-block;
+    float: right;
+    margin-right: 18%;
+    margin-top: 50px;
+    padding-bottom: 168px;
+
+
+  }
+  .institu {
+    display: block;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 24px;
+    color: rgba(20, 46, 141, 0.76);
+    margin-left: 6px;
+    margin-top: 16px;
+
+  }
+
+  .textinhoinstitu {
+    margin-left: 6px;
+  }
+  .projetos {
+    display: flex;
+    justify-content: center;
+    color: rgba(44, 78, 70, 1);
+    font-family: 'Offside', cursive;
+    font-size: 48px;
+    margin-top: 200px;
+}
+.labenu {
+    width: 30%;
+    margin-left: 14%;
+    border-radius: 8px;
+    border: rgba(111, 155, 152, 1) solid 4px;
+    height: 40vh;
+    margin-top: 20px;
+}
+.projetocubos {
+    width: 30%;
+    margin-left: 14%;
+    border-radius: 8px;
+    border: rgba(111, 155, 152, 1) solid 4px;
+    height: 40vh;
+
+}
+.verlabenu {
+    background-color: rgba(113, 177, 177, 1);
+    display: inline-block;
+    margin-left: 24%;
+    margin-top: 10px;
+    border-radius: 4px;
+    padding: 10px 30px;
+}
+.vercubos {
+    background-color: rgba(113, 177, 177, 1);
+    display:inline-block;
+    float: right;
+    margin-right: 22%;
+    margin-top: 10px;
+    border-radius: 4px;
+    padding: 10px 30px;
+
+}
+.fontebotao {
+    font-family: 'Offside', cursive;
+    color: rgba(9, 72, 61, 1);
+    font-size: 18px;
+}
+.container {
+    /* border: red solid 4px; */
+    margin: 0 auto;
+    width: 80vw;
+    height: 260vh;
+    background-image: linear-gradient(to top, rgba(51, 91, 201, 0.082), rgba(33, 67, 190, 0.363));
+    border-radius: 8px;
+    margin-top: 220px;
+    position: relative;
+}
+.soft {
+    /* border: red solid 4px; */
+    display: inline-block;
+    width: 40%;
+    left: 20px;
+
+
+ }
+ .X {
+     border: black solid 4px;
+     display: inline-block;
+     width: 10%;
+
+ }  
+
+ .hard{
+     /* border: coral solid 4px; */
+     display: inline-block;
+     width: 30%;
+     right: 10px;
+
+ }
+ .soft,  .hard {
+     display: inline-block;
+     font-family: 'Slabo 27px', serif;
+     color:rgba(43, 60, 86, 1);
+     font-size: 36px;
+      position: absolute;
+     top: 0;
+ }
+
+ .ctt-redes {
+     /* border: red solid 4px; */
+     margin: 0 auto;
+     width: 70%;
+ }
+ .contato {
+     background-color: rgba(144, 217, 195, 1);
+     display: inline-block;
+     height: 40vh;
+     margin-top: 100px;
+     border-radius: 8px;
+     margin-bottom: 10px;
+     width: 40vw;
+     
+     }
+
+     .conteudoctt {
+         margin-top: 50px;
+         margin-left: 10px;
+         font-family: 'Merriweather Sans', sans-serif;
+         color: rgba(15, 30, 38, 0.56)
+     }
+.botaocontato {
+    padding: 8px 10px;
+    background-color: rgba(147, 169, 227, 1);
+    margin-top: 20px;
+    color:rgba(52, 52, 65, 1) ;
+    font-family: 'Merriweather Sans', sans-serif;
+    
+}
+    
+
+.redes{
+
+    background-color: rgba(144, 217, 195, 1);
+    display: inline-block;
+    height: 45vh;
+    margin-top: 100px;
+    border-radius: 8px;
+    margin-left: 100px;
+    width: 15vw;
+    margin-bottom: 10px;
+    }
+
+.conteudoredes {
+    margin-top: 10px;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: rgba(15, 30, 38, 0.56);
+    margin-left: 10px;
+    
+}
+.email, .insta, .twitter, .git, .linkedin {
+    width: 3vw;
+    border-radius: 4px;
+    
+
+}
+.insta:hover{top:-2px;box-shadow:0 2px 2px rgb(3, 27, 2)}
+.twitter:hover{top:-2px;box-shadow:0 2px 2px rgb(3, 27, 2)}
+.git:hover{top:-2px;box-shadow:0 2px 2px rgb(3, 27, 2)}
+.linkedin:hover{top:-2px;box-shadow:0 2px 2px rgb(3, 27, 2)}
+.email:hover{top:-2px;box-shadow:0 2px 2px rgb(3, 27, 2)}
+
+footer{
+    background-color: rgba(19, 114, 120, 0.9);
+    display: flex;
+    justify-content: center;
+    color: rgba(178, 246, 255, 1);
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    padding: 57px 6px;   
+    font-size: 18px;
+    
+}
+.cabecalho2 {
+    background-color: rgba(111, 155, 152, 1);
+    padding: 20px;
+}
+.pagina2{
+    display: flex;
+    justify-content: center;
+    color:rgb(64, 74, 100);
+    font-family: 'Numans', sans-serif;
+}
+.img {
+    width: 50vw;
+    margin-left: 350px;
+    margin-top: 50px;
+}
+.legendafoto1, .legendafoto2{
+    font-size: 16px;
+    font-family: 'Numans', sans-serif;
+
+}
+.cardlabenu {
+    display: inline-block;
+   margin: 0 auto;
+    width: 20%;
+    margin-left: 70px;
+    height: 50vh;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: rgba(187, 227, 225, 1);
+
+}
+.conteudocard {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: 'Advent Pro', sans-serif;
+    color: rgba(93, 134, 194, 1);
+    font-size: 36px;
+    
+}
+
+.inicio {
+    display: flex;
+    justify-content: end;
+    margin-left: 1280px;
+    margin-bottom:8px; 
+    border-radius: 4px;
+    padding: 10px 10px;
+   background-color:  rgba(9, 72, 61, 1);
+   color: white;
+
+}
+.home {
+    color: white;
+    text-decoration: none;
+}
+
