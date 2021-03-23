@@ -1,0 +1,85 @@
+ nivel1{
+    justify-content: flex-end;
+ }
+ nivel2 {
+    justify-content: center;
+ }
+ nivel3 {
+    justify-content: space-around;
+ }
+ nivel4 {
+    justify-content: space-between;
+ }
+ nivel5 {
+    align-items: flex-end;
+ }
+ nivel6 {
+    align-items: center;
+    justify-content: center;
+ }
+ nivel7 {
+    justify-content: space-around;
+    align-items: flex-end;
+ }
+ nivel8{
+    flex-direction: row-reverse
+ }
+ nivel9{
+    flex-direction: column
+ }
+ nivel10 {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+ }
+ nivel11{
+    flex-direction: column;
+    justify-content: flex-end
+ }
+nivel12 {
+    flex-direction: column-reverse;
+justify-content: space-between;
+}
+nivel13{
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+nivel14{
+    order: 2
+}
+nivel15 {
+    order: -4
+}
+nivel16{
+    align-self: flex-end
+}
+nivel17{
+    order: 1;
+align-self: flex-end;
+}
+nivel18{
+    flex-wrap: wrap
+}
+nivel19{
+    flex-wrap: wrap;
+flex-direction: column
+}
+nivel20 {
+    flex-flow: column wrap
+}
+nivel21{
+    align-content: flex-start;
+}
+nivel22{
+    align-content: flex-end
+}
+nivel23{
+    flex-flow: column-reverse wrap ;
+    align-content: center;
+}
+nivel24{
+    flex-flow: column-reverse wrap-reverse;
+    justify-content: center;
+    align-content: space-between
+    
+}
